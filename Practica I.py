@@ -79,8 +79,13 @@ Cuotas = 12
 interes = 5
  
 print("Su Cuota mensual es:")
-
-print( interes  + 1 ** Cuotas - 1 - Monto  )
+top0 = interes / 100
+top1 = interes ** Cuotas
+top2 = interes -1
+top3 = interes / top0
+top4 = top1 + top2 + top3
+top5 = Monto - top4
+print(top5)
 
 print("Gracias por todo")
 
