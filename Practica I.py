@@ -65,15 +65,17 @@ Axel_Programacion = 95
 Axel_Español = 92
 
 total1 = Axel_Sociales + Axel_Matematiacas + Axel_Programacion + Axel_Español
-
-print(total1 / 4)
-
+nota = total1 / 4
+if total1 > 80
+    print("Sacaste una B")
 print("----------------------------------------------------------------------------------------------------")
 print("Ejercicio 8(final)")
 
 Monto = 1000
 Cuotas = 12
 interes = 5
+ 
+print("Su Cuota mensual es:")
 
 print( interes  + 1 ** Cuotas - 1 - Monto  )
 
